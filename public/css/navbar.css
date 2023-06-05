@@ -1,0 +1,88 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00bbff;
+  font-family: sans-serif;
+  padding: 20px; /* add padding to container */
+}
+
+/* Styling for the heading */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff; /* add color to heading */
+}
+
+/* Styling for the paragraph */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ffffff; /* add color to paragraph */
+}
+
+/* Styling for the button container */
+.button-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem; /* add margin-top to button container */
+}
+
+/* Styling for the buttons */
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Blue button style */
+.blue-button {
+  background-color: #00f7ff;
+}
+
+/* Green button style */
+.green-button {
+  background-color: #00ff00;
+}
+
+/* Red button style */
+.red-button {
+  background-color: #ff0000;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #ffffff;
+  color: #00bbff;
+}
+
+.log-button {
+  position: absolute; /* change to absolute positioning */
+  right: 20px; /* add right position */
+  top: 20px; /* add top position */
+  background-color: #00f7ff;
+  margin: 10px;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  transition: background-color 0.3s ease-in-out;
+}
